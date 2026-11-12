@@ -5,6 +5,7 @@ Data lakehouse project for the STEDI Step Trainer using S3, AWS Glue (PySpark) a
 The data comes from three sources: customer records from the website, accelerometer readings from the mobile app, and readings from the Step Trainer sensor. Each source lands in S3, gets cleaned into a trusted zone, and then gets combined into curated tables. Only customers who agreed to share their data for research end up in the final machine learning table.
 
 S3 bucket used: `stedi-lakehouse-84164`
+
 Glue database: `stedi`
 
 ## Files
